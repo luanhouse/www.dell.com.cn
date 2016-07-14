@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  width: 965px;
+  background-image: url("../images/background-pic.png");
+  background-repeat: repeat-x;
+  font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif;
+  color: #333;
+}
+
+#header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px
+}
+
+#header .tel {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+}
+
+#header .link {
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+}
+
+/*页头链接样式*/
+#header .link a:link {color: #06c;}
+#header .link a:visited {color: #06c;}
+#header .link a:hover {color: #06c;}
+#header .link a:active {color: #06c;}
+#header .link a:link {text-decoration: none;}
+
+#header .link
+a:hover {text-decoration: underline;}
+
+#nav {
+  height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+#nav .logo {
+  float:left;
+}
+
+#nav ul {
+  float: left;
+  display: inline-block;
+  text-align: left;
+}
+
+#nav li {
+  display: inline-block;
+  text-align: left;
+  float: left;
+  margin-left: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*导航链接样式*/
+#nav li a:link {color: #fff;}
+#nav li a:visited {color: #fff;}
+#nav li a:hover {color: #9cc;}
+#nav li a:active {color: #fff;}
+#nav li a:link {text-decoration:none;}
+
+/*各个导航栏宽度定义*/
+#nav .nav-list .p-product {
+  width: 115px;
+}
+
+#nav .nav-list .b-product {
+  width: 66px;
+}
+
+#nav .nav-list .support {
+  width: 66px;
+}
+
+#nav .nav-list .log-account {
+  width: 98px;
+}
+
+/*搜索框部分*/
+#nav .search-box {
+  display: block;
+  float: right;
+  width: 335px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+#nav .search-box .input {
+  display: block;
+  float: left;
+  width: 210px;
+  border: none;
+  margin: 10px 10px 0 10px;
+  font-size: 14px;
+  color: #727272;
+  outline: none;
+}
+
+#nav .search-box .button {
+  display: block;
+  float: right;
+  vertical-align: middle;
+  width: 48px;
+  height: 32px;
+  margin: 4px 4px 20px 4px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 3px;
+}
+
+/*滚动图*/
+#roll-pic {
+  display: block;
+  height: 380px;
+  margin-left: 16px;
+  margin-bottom: 22px;
+}
+
+/*新闻总体布局*/
+#news {
+  display: block;
+  width: 934px;
+  height: 344px;
+  margin-left: 15px;
+  margin-bottom: 45px;
+}
+
+#news .left-new-product {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 342px;
+  margin-right: 13px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#news .center-dell-news {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 342px;
+  margin-right: 13px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#news .right-hot-product {
+  display: block;
+  float: left;
+  width: 302px;
+  height: 342px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/*新闻内容格式*/
+#news h1 {
+  font-size: 12px;
+}
+
+#news {
+  font-size: 12px;
+}
+
+#news span {
+  font-weight: bold;
+}
+
+#news a:link {color: #000;}
+#news a:visited {color: #000;}
+#news a:hover {color: #000;}
+#news a:active {color: #000;}
+#news a:link {text-decoration: none;}
+#news a:hover {text-decoration: underline;}
+
+#news ul {
+  padding: 6px 20px 0 20px;
+}
+
+#news li {
+  padding: 0px 5px 5px 6px;
+  line-height: 17px;
+  list-style: none;
+  background: url('../images/ico-3t.png') no-repeat 0 4px;
+}
+
+#news .t1,.t2,.t3 {
+  display: block;
+  height: 31px;
+  line-height: 31px;
+  vertical-align: middle;
+  margin: 0px 20px 0px 20px;
+}
+
+#news .right-hot-product .frist {
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#news .right-hot-product .third {
+  padding-bottom: 15px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+/*脚注部分*/
+#footer {
+  height: 340px;
+  font-size: 12px;
+  color: #fff;
+
+}
+
+#footer a:link {color: #fff;}
+#footer a:visited {color: #fff;}
+#footer a:hover {color: #fff;}
+#footer a:active {color: #fff;}
+#footer a:link {text-decoration: none;}
+#footer a:hover {text-decoration: underline;}
+
+#footer span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#footer .content {
+  height: 192px;
+}
+
+#footer .content ul {
+  width: 193px;
+  height: 131px;
+  margin-top: 30px;
+  display: block;
+  float: left;
+}
+
+/*脚注部分宽度不同*/
+#footer .content .ct1 ul {
+  width: 192px;
+}
+
+#footer .content .ct2 ul {
+  width: 197px;
+}
+
+#footer .content .ct3 ul {
+  width: 197px;
+}
+
+#footer .content .ct4 ul {
+  width: 207px;
+}
+
+#footer .content .language ul {
+  width: 100px;
+}
+
+#footer .content li {
+  list-style: none;
+  padding: 0px 5px 5px 5px;
+  line-height: 17px;
+}
+
+#footer .content li:first-child {
+  padding-bottom: 3px;
+}
+
+#footer .content .ct1 li {
+  padding-left: 0;
+}
+
+#footer .content .language select {
+  background-color: #0080cc;
+  border: none;
+  color: #fff;
+}
+
+/*底部通用脚注*/
+#footer .universal-footer ul {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#footer .universal-footer li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 12px 0 15px;
+  margin: 35px 0 8px 0;
+  border-left: 1px solid #fff;
+}
+
+#footer .universal-footer li:first-child {
+  padding-left: 20px;
+  border: none;
+}
+
+#footer .universal-footer .icp {
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+
+/*选框格式*/
+#footer .universal-footer .selectors {
+  display: block;
+  text-align: center;
+  padding: 18px 0 15px 0;
+}
+
+#footer .universal-footer select {
+  margin: 0 10px 0 15px;
+  text-align: center;
+  background-color: #0080cc;
+  border: none;
+  color: #fff;
+}
