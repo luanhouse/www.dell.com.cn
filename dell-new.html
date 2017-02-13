@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-han">
+<head>
+  <meta charset="UTF-8">
+  <title>戴尔中国</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body id="body">
+  <!-- 网页头部 -->
+  <div id="header">
+    <p class="tel">购买专线800-858-0888, 售后服务专线800 858 0950</p>
+    <div class="link">
+      <a class="log-in" href="">PartnerDirect登录</a>
+      <span>|</span>
+      <a class="online" href="">Premier在线</a>
+    </div>
+  </div>
+
+  <!-- 导航部分 -->
+  <div id="nav">
+    <a href="http://www.dell.com.cn"><img src="images/dell-logo.png" alt="Homepage" class="logo"></a>
+    <ul class="nav-list">
+      <li class="p-product"><a href="">家庭与个人产品</a></li>
+      <li class="b-product"><a href="">商用产品</a></li>
+      <li class="support"><a href="">技术支持</a></li>
+      <li class="log-account"><a href="">登录我的账户</a></li>
+    </ul>
+    <div class="search-box">
+      <input class="input" type="text" name="keyword" value="关键字或E-Value 代码查询" onfocus="this.value=''" onblur="this.value='关键字或E-Value 代码查询'">
+      <a href="#"><button class="button" type="text" name="search">搜索</button></a>
+    </div>
+
+  </div>
+
+  <!-- 滚动图部分 -->
+  <div id="roll-pic" onmouseover="clearTime()" onmouseout="goTime()">
+    <a href="#"><img id="rollpic" src="images/roll-pic-1.png" alt="2017新鲜福利"></a>
+    <div id="roll-button">
+      <button onclick="showLeft()"><</button>
+      <button onmouseover="colorChange(1)" onclick="showPic(0)" >1</button>
+      <button onmouseover="colorChange(2)" onclick="showPic(1)" >2</button>
+      <button onmouseover="colorChange(3)" onclick="showPic(2)" >3</button>
+      <button onclick="showRight()">></button>
+    </div>
+
+  </div>
+
+  <!-- 新闻内容 -->
+  <div id="news">
+    <div class="left-new-product">
+      <h1 class="t1">戴尔新产品</h1>
+      <a href="#"><img src="images/news-pic-1.png" alt="" class="pic-1"></a>
+      <ul>
+        <li><a href="#"><span>全新 ALIENWARE 13 震撼上市</span></br>当精悍外形遇见酷炫VR，全新外星人13’’笔记本标配GTX 10桌面级独显，全键无冲突，一招制胜，燃爆战场！</a></li>
+        <li><a href="#"><span>全新PowerEdge T30微塔式服务器</span></br>小机箱承载大能量，简化流程的同时，轻松应对小型办公室、家庭办公室文件存储和共享，在更短的时间完成更多工作！</a></li>
+      </ul>
+    </div>
+    <div class="center-dell-news">
+      <h1 class="t2">戴尔新闻速递</h1>
+      <a href="#"><img src="images/news-pic-2.png" alt="" class="pic-2"></a>
+      <ul>
+        <li><a href="#">“戴尔第13代PowerEdge 4路服务器全面更新 以创新技术助力客户实现更高商业价值</a></li>
+        <li><a href="#">戴尔推出全新的高性能计算系统，以最新的创新成果为主流企业带来超级计算能力</a></li>
+        <li><a href="#">戴尔SonicWALL Secure Mobile Access 100系列更新操作系统 为中小企业的移动与远程工作人员提供更高安全性</a></li>
+        <li><a href="#">访问新闻编辑室，了解更多戴尔最新新闻，包括产品发布、绿色计划和技术公告。</a></li>
+      </ul>
+    </div>
+    <div class="right-hot-product">
+      <h1 class="t3">戴尔热卖信息</h1>
+      <a href="#"><img src="images/news-pic-3.png" alt="" class="pic-3"></a>
+      <ul>
+        <li class="frist"><a href="#"><span>本周特惠:</span>出众的创意需要出众的工作站，本周选购Precision T5810指定机型立享现金优惠！</a></li>
+        <li class="second"><a href="#"><span>家庭与个人计算机热卖促销</span></a></li>
+        <li class="third"><a href="#"><span>中小企业商用产品热卖促销</span></a></li>
+        <li class="forth"><a href="#"><span>戴尔重点客户员工采购</span></a></li>
+        <li class="forth"><a href="#"><span>戴尔授权零售店</span></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- 网页底部 -->
+  <div id="footer">
+    <div class="content">
+      <div class="ct1">
+        <ul>
+          <li><span>戴尔做的更多</span></li>
+          <li><a href="#">PartnerDirect</a></li>
+          <li><a href="#">技术中心</a></li>
+        </ul>
+      </div>
+      <div class="ct2">
+        <ul>
+          <li><span>关于戴尔</span></li>
+          <li><a href="#">公司信息</a></li>
+          <li><a href="#">企业社会责任</a></li>
+          <li><a href="#">客户互动</a></li>
+          <li><a href="#">工作机会</a></li>
+          <li><a href="#">新闻编辑室</a></li>
+          <li><a href="#">Dell Technologies</a></li>
+        </ul>
+      </div>
+      <div class="ct3">
+        <ul>
+          <li><span>法律</span></li>
+          <li><a href="#">隐私政策</a></li>
+          <li><a href="#">法律法规</a></li>
+          <li><a href="#">网站使用条款</a></li>
+          <li><a href="#">条款和条件</a></li>
+        </ul>
+      </div>
+      <div class="ct4">
+        <ul>
+          <li><span>社区</span></li>
+          <li><a href="#">社区</a></li>
+          <li><a href="#">阅读我们的博客</a></li>
+          <li><a href="#">技术支持论坛</a></li>
+          <li><a href="#">活动</a></li>
+        </ul>
+      </div>
+      <div class="language">
+        <ul>
+          <li><img src="images/flag.png" alt="country"></li>
+          <li>
+            <select name="language">
+              <option value="Chinese">中国大陆</option>
+              <option value="English">English</option>
+              <option value="France">France</option>
+              <option value="German">German</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+
+
+
+  <!-- 通用网页底部 -->
+    <div id="universal-footer">
+      <ul>
+        <li class="li-one"><a href="#">法律法规</a></li>
+        <li><a href="#">网站使用条款</a></li>
+        <li><a href="#">条款和条件</a></li>
+        <li><a href="#">您未解决的问题</a></li>
+        <li><a href="#">隐私政策</a></li>
+        <li><a href="#">站点地图</a></li>
+        <li><a href="#">戴尔资源回收</a></li>
+        <li><a href="#">联系我们</a></li>
+        <li><a href="#">[-]反馈</a></li>
+      </ul>
+      <p class="icp"><a href="#">闽ICP备05032923号</a></p>
+      <div class="selectors">
+        <select name="product">
+          <option value="product1">产品</option>
+          <option value="product2">产品2</option>
+        </select>
+        <select name="area">
+          <option value="area1">国家/地区</option>
+          <option value="area2">国家/地区2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+    <script>
+
+      var piclist = [
+        {pic: 'images/roll-pic-1.png'},
+        {pic: 'images/roll-pic-2.png'},
+        {pic: 'images/roll-pic-3.png'},
+      ];
+
+      var i = 0;
+      var $rollpic = document.getElementById('rollpic');
+      var $cbgd = document.getElementById('roll-button').getElementsByTagName('button');
+
+      function showRight() {
+        i = i + 1;
+        if (i >= piclist.length) {
+          i = 0;
+        }
+        $rollpic.src = piclist[i].pic;
+        console.log(i);
+        colorChange(i+1)
+      }
+
+      function showLeft() {
+        i = i - 1;
+        if (i < 0) {
+          i = piclist.length - 1;
+        }
+        $rollpic.src = piclist[i].pic;
+        $cbgd[i+1].style.background = 'white';
+        console.log(i);
+        colorChange(i+1)
+      }
+
+      function showPic(prep) {
+        $rollpic.src = piclist[prep].pic;
+      }
+
+      var timer = setInterval('showRight()', 3000);
+
+      function clearTime() {
+        clearInterval(timer);
+      }
+
+      function  goTime() {
+        timer = setInterval('showRight()', 3000);
+      }
+
+      function colorChange(btn) {
+        for (var i = 0; i < $cbgd.length; i++) {
+          $cbgd[i].style.background = '#ccc';
+        }
+        i = btn;
+        $cbgd[i].style.background = 'white';
+      }
+
+    </script>
+</body>
+</html>
